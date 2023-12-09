@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+PP (Place Playlist) - 위치기반 플레이리스트 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+소개
 
-## Available Scripts
+PP는 위치기반 서비스를 활용하여 사용자들이 특정 장소에서 최적의 음악을 즐길 수 있는 플레이리스트를 생성하고 공유하는 플랫폼입니다.
 
-In the project directory, you can run:
+활용 방안 - ChatGPT
 
-### `npm start`
+PP는 ChatGPT를 활용하여 사용자들에게 더욱 개인화된 음악 추천을 제공합니다. 사용자가 ChatGPT를 통해 질문을 하면, ChatGPT는 현재 위치를 기반으로 해당 지역에 어울리는 음악 플레이리스트를 추천합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+예시:
+plaintext
+Copy code
+사용자: "현재 위치에서 분위기 좋은 음악 플레이리스트 추천해줘."
+ChatGPT: "당신의 현재 위치에서 분위기 좋은 음악을 즐길 수 있는 'City Lights Vibes' 플레이리스트를 추천해드릴게요. 도시의 활기와 조명이 어울리는 음악들이 모여있어 분위기를 더해줄 거에요. 듣고 싶은 다른 스타일이 있나요?"
+이렇게 ChatGPT를 활용하여 사용자와 상호작용함으로써, 보다 개인화된 음악 경험을 제공합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+사용 가이드
 
-### `npm test`
+사용자 질문:
+사용자가 ChatGPT에게 다양한 질문을 하여 위치 기반 음악 추천을 받을 수 있습니다.
+ChatGPT 응답:
+ChatGPT는 사용자의 현재 위치를 고려하여 음악 플레이리스트를 추천하며, 추가적인 사용자 요구사항에 대응할 수 있습니다.
+상호작용:
+사용자가 ChatGPT와 계속적으로 대화하며 더 나은 추천을 받거나 원하는 스타일을 명시할 수 있습니다.
+활용의 장점
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+개인화된 추천: ChatGPT를 활용하여 위치 정보를 기반으로 한 개인화된 음악 추천을 제공하여 사용자 만족도를 높입니다.
+간편한 상호작용: ChatGPT와의 대화를 통해 사용자는 직관적이고 간편하게 원하는 음악 스타일을 찾을 수 있습니다.
+다양한 응용 가능: ChatGPT를 활용하면 향후 더 다양한 사용자 요구에 대응하는 기능을 추가할 수 있습니다.
+사용법
 
-### `npm run build`
+ChatGPT API 키 설정:
+PP 서비스에서 ChatGPT를 사용하기 위해 OpenAI에서 제공하는 API 키를 설정합니다.
+사용자 위치 정보 수집:
+사용자의 위치 정보를 수집하여 서비스에 입력합니다.
+ChatGPT와의 상호작용:
+ChatGPT API를 활용하여 사용자의 음악 관련 질문에 응답하는 기능을 구현합니다.
+추천된 플레이리스트 제공:
+ChatGPT가 추천한 음악 플레이리스트를 사용자에게 제공하여 음악 감상을 즐길 수 있게 합니다.
+기여 방법
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+PP 서비스에 기여하고 싶다면, GitHub 저장소를 포크한 후 새로운 기능이나 버그 수정에 대한 풀 리퀘스트를 제출해주세요.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+라이센스
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이 프로젝트는 MIT 라이센스에 따라 배포됩니다. 자세한 내용은 LICENSE 파일을 확인하세요.
